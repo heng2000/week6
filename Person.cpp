@@ -2,7 +2,7 @@
 #include "Person.h"
 using namespace std;
 
-Person ::Person()
+Person::Person()
 {
     name ="w";
     salary=100;
@@ -13,22 +13,22 @@ Person::Person(int mySalary, string myName)
     salary =mySalary;
 }
 
-void Person:: setName(string myName)
+void Person::setName(string myName)
 {
     name =myName;
 }
 
-string Person:: getName()
+string Person::getName()
 {
     return name;
 }
 
-void Person:: setSalary(int mySalary)
+void Person::setSalary(int mySalary)
 {
     salary =mySalary;
 }
 
-int Person:: getSalary()
+int Person::getSalary()
 {
     return salary;
 }
