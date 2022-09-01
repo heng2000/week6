@@ -5,7 +5,7 @@ using namespace std;
 Wagon::Wagon()
 {
     index = 0;
-    animals = new Capybara [4];
+    animals = new Capybara [10];
 }
 
 
