@@ -12,7 +12,7 @@ public:
     Person copilot;
     std::string thecallsign;
     // a pilot and copilot must be provided when creating an airplane
-    Airplane(string callsign, Person thePilot, Person theCoPilot);
+    Airplane(std::string callsign, Person thePilot, Person theCoPilot);
     void setPilot(Person thePilot);      // change the pilot
     Person getPilot();
     void setCoPilot(Person theCoPilot);  // change the co-pilot
