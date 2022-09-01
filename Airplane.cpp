@@ -40,6 +40,6 @@ Person Airplane::getCoPilot()
 
 void Airplane::printDetails()
 {
-    cout<<"the call sign is "<<thecallsign<<endl;
-    cout<<"the poilt is "<<pilot.getName()<<endl;
+    cout<<thecallsign<<endl;
+    cout<<pilot.getName()<<endl;
 }
