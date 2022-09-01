@@ -2,15 +2,16 @@
 #define AIRPLANE_H
 #include "Person.h"
 #include<string>
-
+using namespace std;
 class Airplane
 {
 
 public:
     Airplane(/* args */);
     ~Airplane();
-    Person* pilot;
-    Person* copilot;
+    Person pilot;
+    Person copilot;
+    std::string thecallsign;
     // a pilot and copilot must be provided when creating an airplane
     Airplane(string callsign, Person thePilot, Person theCoPilot);
     void setPilot(Person thePilot);      // change the pilot
