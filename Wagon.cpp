@@ -15,20 +15,15 @@ Wagon::~Wagon()
 
 bool Wagon:: addCapybara(Capybara newCapy)
 {
-    if(index == 3) {
+    if(index >= 3) {
         return false;
-    }
-    // int length =sizeof(newCapy)/sizeof(Capybara);
-    // if (length ==number)
-    // {
-    //     return 1;
-    // }else{
-    //     return 0;
-    // }
-    animals[index] = newCapy;
-    index++;
+    }else {
+        animals[index] = newCapy;
+        index++;
 
-    return true;
+        return true;
+    }
+
 
 }
 void Wagon:: emptyWagon()
