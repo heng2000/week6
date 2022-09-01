@@ -30,11 +30,27 @@ int main ()
     names5.setName("eee");
     names5.setAge(555);
     Wagon w;
-    w.addCapybara(names1);
-    w.addCapybara(names2);
-    w.addCapybara(names3);
-    w.addCapybara(names4);
-    w.addCapybara(names5);
+    if(!w.addCapybara(names1))
+    {
+        cout<<"oops cannot add capybara:"<<names1.getName()<<" of age "<<names1.getAge()<<endl;
+    }
+    if(!w.addCapybara(names2))
+    {
+        cout<<"oops cannot add capybara:"<<names2.getName()<<" of age "<<names2.getAge()<<endl;
+    }
+    if(!w.addCapybara(names3))
+    {
+        cout<<"oops cannot add capybara:"<<names3.getName()<<" of age "<<names3.getAge()<<endl;
+    }
+    if(!w.addCapybara(names4))
+    {
+        cout<<"oops cannot add capybara:"<<names4.getName()<<" of age "<<names4.getAge()<<endl;
+    }
+    if(!w.addCapybara(names5))
+    {
+        cout<<"oops cannot add capybara:"<<names5.getName()<<" of age "<<names5.getAge()<<endl;
+    }
+
     w.printCapybaras();
     return 0;
 }
