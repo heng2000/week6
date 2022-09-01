@@ -12,7 +12,6 @@ public:
     void emptyWagon();                     // remove all Capybaras from the wagon
     void printCapybaras();                 // print the name, a space, the age, then a new line
                                        // for each capybara in the order they were added
-
 };
 #endif
 

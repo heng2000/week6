@@ -4,24 +4,28 @@
 using namespace std;
 Wagon::Wagon()
 {
-    index = 0;
+    index = 4;
     animals = new Capybara [4];
 }
 
 
 bool Wagon:: addCapybara(Capybara newCapy)
 {
-    if(index >= 4)
+    int length_c =sizeof(newCapy)/sizeof(Capybara);
+    // if(index >4)
+    if (length_c>=index)
     {
         cout<<"error";
         return false;
     }else {
-        for (int i =0;i<index;i++)
+        // for (int i =0;i<index;i++)
+        for (int i =0;i<length_c;i++)
         {
             animals[i] = newCapy;
         }
         // animals[index] = newCapy;
         // index++;
+        index =length_c;
 
         return true;
     }
@@ -30,7 +34,7 @@ bool Wagon:: addCapybara(Capybara newCapy)
 }
 void Wagon:: emptyWagon()
 {
-    index  =0;
+    delete [] animals;
 }
 void Wagon:: printCapybaras()
 {
