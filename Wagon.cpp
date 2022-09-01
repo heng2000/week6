@@ -24,7 +24,7 @@ bool Wagon:: addCapybara(Capybara newCapy)
 }
 void Wagon:: emptyWagon()
 {
-    delete [] animals;
+    index =0;
 }
 void Wagon:: printCapybaras()
 {
