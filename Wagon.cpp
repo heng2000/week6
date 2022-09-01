@@ -33,32 +33,32 @@ void Wagon:: printCapybaras()
         cout<<animals[i].getName()<<" "<<animals[i].getAge()<<endl;
     }
 }
-Capybara::Capybara()
-{
-    name ="a";
-    age =12;
-}
+// Capybara::Capybara()
+// {
+//     name ="a";
+//     age =12;
+// }
 
-void Capybara::setName(string capyName)
-{
-    name =capyName;
-}
+// void Capybara::setName(string capyName)
+// {
+//     name =capyName;
+// }
 
-string Capybara::getName()
-{
-    return name;
-}
+// string Capybara::getName()
+// {
+//     return name;
+// }
 
-void Capybara::setAge(int capyAge)
-{
-    age =capyAge;
-}
+// void Capybara::setAge(int capyAge)
+// {
+//     age =capyAge;
+// }
 
-int Capybara::getAge()
-{
-    return age;
-}
-Capybara::~Capybara()
-{
+// int Capybara::getAge()
+// {
+//     return age;
+// }
+// Capybara::~Capybara()
+// {
 
-}
+// }

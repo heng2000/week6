@@ -2,7 +2,6 @@
 #define WAGON_H
 #include<string>
 #include "Capybara.h"
-using namespace std;
 class Wagon
 {
 public:

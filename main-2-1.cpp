@@ -1,6 +1,6 @@
 #include<iostream>
 #include "Wagon.h"
-#include "Capybara.h"
+//s#include "Capybara.h"
 using namespace std;
 int main ()
 {
@@ -16,8 +16,10 @@ int main ()
     // w.printCapybaras();
     Capybara names1;
     names1.setName("chunhua");
+    names1.setAge(100);
     Capybara names2;
     names2.setName("weihuang");
+    names2.setAge(222);
     Wagon w;
     w.addCapybara(names1);
     w.addCapybara(names2);
