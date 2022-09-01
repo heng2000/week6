@@ -4,7 +4,6 @@
 using namespace std;
 Wagon::Wagon()
 {
-    number =2;
     index = 0;
     animals = new Capybara [4];
 }
@@ -18,6 +17,7 @@ bool Wagon:: addCapybara(Capybara newCapy)
     if(index >= 3) {
         return false;
     }else {
+
         animals[index] = newCapy;
         index++;
 
@@ -28,13 +28,13 @@ bool Wagon:: addCapybara(Capybara newCapy)
 }
 void Wagon:: emptyWagon()
 {
-    delete[] animals;
+    index  =0;
 }
 void Wagon:: printCapybaras()
 {
     for (int i =0;i<index;i++)
     {
-        cout<<animals[i].getName()<<animals[i].getAge()<<endl;
+        cout<<animals[i].getName()<<" "<<animals[i].getAge()<<endl;
     }
 }
 
