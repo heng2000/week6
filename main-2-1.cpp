@@ -4,10 +4,16 @@
 using namespace std;
 int main ()
 {
-    Capybara*pointer =new Capybara [4];
-    string name1 ="1";
-    pointer->setName(name1);
-    cout << pointer->getName()<<endl;
+    Capybara c1;
+    Capybara c2;
+    c1.setName("wei");
+    c1.setAge(1);
+    c2.setName("guang");
+    c2.setAge(2);
+    Wagon w;
+    w.addCapybara(c1);
+    w.addCapybara(c2);
+    w.printCapybaras();
     return 0;
 
 }

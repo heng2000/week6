@@ -8,18 +8,20 @@ Wagon::Wagon()
     animals = new Capybara [4];
 }
 
-Wagon::~Wagon()
-{
-}
 
 bool Wagon:: addCapybara(Capybara newCapy)
 {
-    if(index >= 3) {
+    if(index >= 4)
+    {
+        cout<<"error";
         return false;
     }else {
-
-        animals[index] = newCapy;
-        index++;
+        for (int i =0;i<index;i++)
+        {
+            animals[i] = newCapy;
+        }
+        // animals[index] = newCapy;
+        // index++;
 
         return true;
     }
