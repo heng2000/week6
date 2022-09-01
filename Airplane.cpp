@@ -42,4 +42,5 @@ void Airplane::printDetails()
 {
     cout<<thecallsign<<endl;
     cout<<pilot.getName()<<endl;
+    cout<<copilot.getName()<<endl;
 }

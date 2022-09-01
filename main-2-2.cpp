@@ -11,6 +11,10 @@ int main()
     Airplane p ("nice",name1,name2);
     cout<<"details:"<<endl;
     p.printDetails();
+    Person original = p.getPilot();
+    p.setPilot(name3);
+    p.setCoPilot(original);
+    p.printDetails();
     return 0;
 
 }
