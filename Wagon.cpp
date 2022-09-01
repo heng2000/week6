@@ -32,9 +32,7 @@ void Wagon:: printCapybaras()
     {
         cout<<animals[i].getName()<<" "<<animals[i].getAge()<<endl;
     }
-    cout<<endl;
 }
-
 Capybara::Capybara()
 {
     name ="a";
@@ -64,4 +62,3 @@ Capybara::~Capybara()
 {
 
 }
-

@@ -14,10 +14,13 @@ int main ()
     // w.addCapybara(c1);
     // w.addCapybara(c2);
     // w.printCapybaras();
-    Capybara names;
-    names.setName("a");
+    Capybara names1;
+    names1.setName("chunhua");
+    Capybara names2;
+    names2.setName("weihuang");
     Wagon w;
-    w.addCapybara(names);
+    w.addCapybara(names1);
+    w.addCapybara(names2);
     w.printCapybaras();
     return 0;
 }

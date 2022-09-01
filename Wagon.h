@@ -2,6 +2,7 @@
 #define WAGON_H
 #include<string>
 #include "Capybara.h"
+using namespace std;
 class Wagon
 {
 public:
@@ -14,4 +15,3 @@ public:
                                        // for each capybara in the order they were added
 };
 #endif
-
