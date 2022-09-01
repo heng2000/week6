@@ -2,7 +2,6 @@
 #define AIRPLANE_H
 #include "Person.h"
 #include<string>
-using namespace std;
 class Airplane
 {
 

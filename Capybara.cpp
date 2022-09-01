@@ -4,8 +4,8 @@ using namespace std;
 //定义构造函数
 Capybara::Capybara()
 {
-    name ="a";
-    age =12;
+    // name ="a";
+    // age =12;
 }
 
 void Capybara::setName(string capyName)

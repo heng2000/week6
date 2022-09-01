@@ -11,7 +11,7 @@ Wagon::Wagon()
 
 bool Wagon:: addCapybara(Capybara newCapy)
 {
-    if(index >4)
+    if(index >3)
     {
         cout<<"oops cannot add capybara:"<<newCapy.getName()<<" of age "<<newCapy.getAge()<<endl;
         return false;
