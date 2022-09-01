@@ -41,5 +41,6 @@ void Wagon:: printCapybaras()
     {
         cout<<"cbara "<<animals[i].getAge()<<endl;
     }
+    cout<<endl;
 }
 
