@@ -1,5 +1,6 @@
 #include<iostream>
 #include "Airplane.h"
+#include"Person.h"
 using namespace std;
 
 int main()
